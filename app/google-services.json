@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "353114185166",
+    "firebase_url": "https://growthwatcher-225110.firebaseio.com",
+    "project_id": "growthwatcher-225110",
+    "storage_bucket": "growthwatcher-225110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353114185166:android:6ac89f2177b71f80",
+        "android_client_info": {
+          "package_name": "fr.tom_d.growthwatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353114185166-fcj465eh6urbafv77pj8d5402dv7lk25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.tom_d.growthwatcher",
+            "certificate_hash": "2d2a5999098d8adc87d217e6a986fdccf78e50cc"
+          }
+        },
+        {
+          "client_id": "353114185166-d17dp3a2m7jsise8hi52s285n387jom5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqIwpqVbrCPoDBM9UU_pgspf6--Ey1j0g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353114185166-d17dp3a2m7jsise8hi52s285n387jom5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

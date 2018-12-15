@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GrowthWatcher</string>
+    <string name="info_no_username_found">Erreur dans la récupération de votre pseudo</string>
+    <string name="error">Erreur : </string>
+</resources>

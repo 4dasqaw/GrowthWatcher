@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+<TextView
+        android:id="@+id/main_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text=""
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/main_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textSize="14sp"
+        tools:text="" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/main_graph" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/main_et_date_plant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date de plantation"
+            android:layout_margin="5dp"/>
+
+
+        <Button
+            android:id="@+id/main_ok_plant_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/main_et_date_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date de relevé"
+            android:layout_margin="5dp"/>
+
+
+        <EditText
+            android:id="@+id/main_et_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="C°"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/main_ok_temp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_profil_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
